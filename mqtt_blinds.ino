@@ -3,12 +3,12 @@
 #include <Stepper.h>
 
 // Network and MQTT info
-const char* ssid = "SSID_HERE";//put your wifi ssid here
-const char* password = "PASSWORD_HERE";//put your wifi password here
-const char* mqtt_server = "10.0.1.46";
-const char* clientId = "bedroom_blinds";
-const char* userName = "MQTT_USER";
-const char* passWord = "MQTT_PASS";
+const char* ssid = "SSID_HERE"; //Wifi ssid 
+const char* password = "PASSWORD_HERE";//Wifi password
+const char* mqtt_server = "10.0.1.1"; //MQTT server IP
+const char* clientId = "bedroom_blinds"; //MQTT topic
+const char* userName = "MQTT_USER"; //MQTT user
+const char* passWord = "MQTT_PASS"; //MQTT pass
 
 // Number of steps per revolution
 const int stepsPerRevolution = 200;  // change this to fit the number of steps per revolution
